@@ -443,3 +443,19 @@ html {
     justify-content: space-between;
     align-items: center;
 } */
+
+header{
+  background-color: #9ca3af;
+  width: 100%;
+  padding: 10px;
+}
+
+.topnav{
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  padding: 10px 32px;
+}
