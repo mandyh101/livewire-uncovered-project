@@ -13,8 +13,6 @@
 
     </head>
     <body>
-
-      <h1>My livewire counter app</h1>
       
       <livewire:counter />
       

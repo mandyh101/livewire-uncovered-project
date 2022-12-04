@@ -407,21 +407,26 @@ html {
     padding-left: 4.5rem;
     padding-right: 4.5rem;
     --tw-border-opacity: 1;
-    border-color: rgb(0 0 0 / var(--tw-border-opacity));
-    border-width: .5rem;
-    border-radius: 9999px;
+    border-color: red;
+    border-width: 1rem;
+    border-radius: 20%;
     justify-content: space-between;
     align-items: center;
     width: 20rem;
     height: 20rem;
     display: flex;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .counter:before {
     display: block;
     content: '+';
     opacity: 0;
+}
+
+.centered-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* .counter {
